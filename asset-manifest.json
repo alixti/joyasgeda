@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/joyasgeda/static/css/main.20e25cf1.css",
+    "main.js": "/joyasgeda/static/js/main.b6536992.js",
+    "index.html": "/joyasgeda/index.html",
+    "main.20e25cf1.css.map": "/joyasgeda/static/css/main.20e25cf1.css.map",
+    "main.b6536992.js.map": "/joyasgeda/static/js/main.b6536992.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20e25cf1.css",
+    "static/js/main.b6536992.js"
+  ]
+}
