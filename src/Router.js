@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Layout from "./Layout";
 import Cart from "./components/Cart";
 import Catalog from "./components/Catalog";
@@ -7,7 +7,7 @@ import NotFound from "./components/NotFound";
 
 function Router() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -16,7 +16,7 @@ function Router() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
